@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+		xmlns:cmwmobile="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <PreferenceCategory
+            android:title="@string/pref_first_category_title">
+            
+        <CheckBoxPreference
+            android:key="checkbox_preference_resident"
+            android:defaultValue="true"
+            android:title="@string/enable"
+            android:summary="@string/enable_summary"
+            />
+        
+        <CheckBoxPreference
+            android:key="checkbox_preference_trayicon"
+            android:dependency="checkbox_preference_resident"
+            android:defaultValue="true"
+            android:title="@string/pref_tray_icon"
+            android:summary="@string/pref_tray_icon_summary"
+            />
+
+        <ru.phplego.core.etc.iconpref.ImageListPreference
+                android:key="app_icon"
+                android:dependency="checkbox_preference_resident"
+                android:title="@string/pref_app_icon"
+                android:summary="@string/pref_app_icon_summary"
+                android:entries="@array/iconNames"
+                android:entryValues="@array/iconValues"
+                cmwmobile:entryImages="@array/iconDrawables"
+                />
+
+        <!--/* Вопрос по окончании звонка */-->
+        <ListPreference
+            android:key="list_preference_recording"
+            android:dependency="checkbox_preference_resident"
+            android:defaultValue="1"
+            android:title="@string/pref_call_recording"
+            android:summary="@string/pref_call_recording_summary"
+            android:entries="@array/entries_list_ask"
+            android:entryValues="@array/entrievalues_list_ask"
+            android:dialogTitle="@string/pref_call_recording_title"
+            />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/pref_rec_params_category_title">
+        <!-- Аудио источник -->
+        <ListPreference
+            android:key="list_preference_recording_audio_source"
+            android:dependency="checkbox_preference_resident"
+            android:defaultValue="0"
+            android:title="@string/pref_audio_source"
+            android:summary="@string/pref_audio_source_summary"
+            android:entries="@array/entries_list_audio_source"
+            android:entryValues="@array/entrievalues_list_audio_source"
+            android:dialogTitle="@string/pref_call_recording_title"
+            />
+
+        <ListPreference
+                android:key="list_preference_recording_format"
+                android:dependency="checkbox_preference_resident"
+                android:defaultValue="1"
+                android:title="@string/pref_call_recording_format"
+                android:summary="@string/pref_call_recording_format_summary"
+                android:entries="@array/entries_list_fromats"
+                android:entryValues="@array/entrievalues_list_fromats"
+                android:dialogTitle="@string/pref_call_recording_format"
+                />
+
+        <ListPreference
+            android:key="list_preference_recording_bitrate"
+            android:dependency="checkbox_preference_resident"
+            android:defaultValue="64000"
+            android:title="@string/pref_audio_bitrate"
+            android:summary="@string/pref_audio_bitrate_summary_on"
+            android:entries="@array/entrievalues_bitrate"
+            android:entryValues="@array/entrievalues_bitrate"
+            android:dialogTitle="@string/pref_call_recording_title"
+            />
+        <CheckBoxPreference
+                android:key="checkbox_preference_corrupt_extension"
+                android:defaultValue="false"
+                android:title="@string/pref_corrupt_extension"
+                android:summaryOn="@string/pref_corrupt_extension_summary"
+                android:summaryOff="@string/pref_corrupt_extension_summary_off"
+                />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_second_category_title">
+        <EditTextPreference
+            android:title="@string/pref_path"
+            android:summary="@string/pref_path_summary"
+            android:key="records_path"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/pref_error_reporting_category_title">
+        <CheckBoxPreference android:key="acra.enable"
+                            android:title="@string/pref_enable_acra"
+                            android:summaryOn="@string/pref_acra_enabled"
+                            android:summaryOff="@string/pref_acra_disabled"
+                            android:defaultValue="true"/>
+        <EditTextPreference android:key="acra.user.email"
+                            android:title="E-Mail"
+                            android:summary="@string/pref_acra_user_email_summary"/>
+        <CheckBoxPreference android:key="developer_mode"
+                            android:title="Developer mode"
+                            android:summary="Show technical info" />
+    </PreferenceCategory>
+
+    <Preference
+            android:title="@string/about"
+            android:key="pref_about"/>
+
+</PreferenceScreen>

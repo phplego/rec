@@ -1,0 +1,172 @@
+<resources>
+	<string name="options_title">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="expand_all">Expand all</string>
+    <string name="collapse_all">Collapse all</string>
+    <string name="group_operations">Group operations</string>
+    <string name="add_to_plan">Add to plan</string>
+    <string name="remove_from_plan">Remove from plan</string>
+    <string name="plan_to">To Plan</string>
+    <string name="edit">Edit</string>
+    <string name="edit_file">Edit file</string>
+    <string name="abonent_history">Abonent history</string>
+    <string name="send">Send</string>
+    <string name="clear">Clear</string>
+    <string name="add_to_fav">Add to favorites</string>
+    <string name="remove_from_fav">Remove from favorites</string>
+    <string name="send_record">Send record</string>
+    <string name="save_number">Save to contacts</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="MENU">MENU</string>
+    <string name="open_folder">Open Folder</string>
+    <string name="enter_note_here">Enter text mark</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="empty_list">Empty list</string>
+    <string name="do_call">Call</string>
+    <string name="loading">Loading. Please wait...</string>
+    <string name="cannot_create_dir">Cannot create directory</string>
+    <string name="pages">Modules</string>
+
+    <string name="notepad">Notepad</string>
+    <string name="search">Search</string>
+    <string name="calls">Calls</string>
+    <string name="noted_calls">Noted</string>
+    <string name="plan">Plan</string>
+    <string name="favourites">Favourites</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="options">Options</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="tools">Tools</string>
+    <string name="show_all">Show all calls</string>
+    <string name="everything">Everything</string>
+    <string name="clipboard_history">Clipboard</string>
+
+
+    <string name="enable">Enabled</string>
+    <string name="enable_summary">Enable/Disable Program</string>
+
+    <string name="save">Save</string>
+    <string name="save_question">Save conversation?</string>
+
+    <string name="start_service_question">Service records of conversations is not running. Run?</string>
+
+    <string name="pref_first_category_title" >Background settings</string>
+    <string name="pref_tray_icon" >Icon in status panel</string>
+    <string name="pref_tray_icon_summary">Program icon in the tree</string>
+    <string name="pref_app_icon" >Application icon</string>
+    <string name="pref_app_icon_summary" >Your own style</string>
+    <string name="pref_call_recording">Conversation recording</string>
+    <string name="pref_call_recording_title">Conversation recording</string>
+    <string name="pref_call_recording_summary">Confirm save</string>
+    <string name="pref_second_category_title">Recorded conversations</string>
+    <string name="pref_path">Path to records directory</string>
+    <string name="pref_path_summary">Tap to change directory</string>
+
+
+
+    <string name="pref_rec_params_category_title">Audio recording settings</string>
+
+    <string name="pref_audio_source">Audio Source</string>
+    <string name="pref_audio_source_summary">Audio recording device type</string>
+
+    <string name="pref_call_recording_format">Audio Format</string>
+    <string name="pref_call_recording_format_summary">Audio recording format</string>
+
+    <string name="pref_audio_bitrate">Audio Bitrate</string>
+    <string name="pref_audio_bitrate_summary_on">The quality of recording</string>
+
+    <string name="pref_corrupt_extension">Hide files from the media player</string>
+    <string name="pref_corrupt_extension_summary_on">Invisible for media players</string>
+    <string name="pref_corrupt_extension_summary_off">Modify file extension for media players can\'t see them</string>
+
+    <string name="pref_error_reporting_category_title">Error Reporting</string>
+    <string name="pref_enable_acra">Send reports</string>
+    <string name="pref_acra_enabled">Reporting enabled</string>
+    <string name="pref_acra_disabled">Reporting disabled</string>
+
+    <string name="pref_acra_user_email_summary">Input your E-Mail if you want receive answer from developers</string>
+
+    <string name="audio_source_not_supported">Device does not support this Audio Source</string>
+
+
+
+    <string name="sec">sec</string>
+    <string name="duration_limit_reached">In the free version of the Call Recording recording time is limited to 1 minute</string>
+
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="service_working">Call Recording is running</string>
+
+    <string name="note_title">Add note to this conversation:</string>
+
+    <string name="nocalls">You have not made the call</string>
+    <string name="noplan">You have not plan anything</string>
+
+    <string name="set_alert_date_title">Plan for:</string>
+    <string name="set_alert_date_button_text">Set date</string>
+    <string name="set_alert_time_button_text">Set time</string>
+
+    <string name="conversation_finished">The conversation is finished</string>
+    <string name="save_and_add_note">Save and add note</string>
+
+    <string name="trial_expired">Trial period expired</string>
+    <string name="buy">Buy</string>
+    <string name="upgrade_to_pro_version">Upgrade to Pro version</string>
+
+    <!-- ДИАЛОГ ВЫБОРА ФАЙЛА -->
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="err">Error</string>
+
+    <!-- Экспорт/Импорт -->
+    <string name="import_">Import</string>
+    <string name="export">Export</string>
+    <string name="import_from_file">Import from file</string>
+    <string name="to_file">To file</string>
+    <string name="database_export">Export calls database to file</string>
+    <string name="database_export_ok">Database successfully exported to file</string>
+    <string name="database_export_err">Export error</string>
+    <string name="database_import">Import calls database from file</string>
+    <string name="database_import_ok">Database successfully imported</string>
+    <string name="database_import_err">Import error</string>
+    <string name="from_which_secretary">From which Call Recording?</string>
+    <string name="really_want_import_from_secretary_beta">Do you really want to import database from Beta version of Call Recording? All current records will be lost.</string>
+    <string name="really_want_import_from_secretary_pro">Do you really want to import database from Free version of Call Recording? All current records will be lost.</string>
+    <string name="really_want_import_from_secretary_free">Do you really want to import database from Pro version of Call Recording? All current records will be lost.</string>
+    <string name="do_you_want_to_import_from_other">Do you want to import data from other version of Call Recording?</string>
+    <string name="import_from_secretary">Import from Call Recording</string>
+    <string name="technical_info">Technical info</string>
+    <string name="send_report">Send error report</string>
+    <string name="send_report_sended">Error report sended</string>
+
+    <string name="send_email_to_developer">Send email to us</string>
+    <string name="nice_to_contact_you">We are glad to any cooperation</string>
+    <string name="hello_oleg">Hello, Oleg...</string>
+
+    <string name="start_page">Start page</string>
+
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+
+    <string name="private_number">Private number</string>
+
+    <string name="current_value_clipboard">Current value in clipboard:</string>
+
+    <string name="delete_all_confirm">Do you really want to delete all items?</string>
+
+    <string name="clipboard_history_hint">Here is clipboard history</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+</resources>

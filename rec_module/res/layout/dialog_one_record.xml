@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+        <Button
+                android:id="@+id/btnToPlan"
+                android:text="@string/plan_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@drawable/btn_default_transparent"
+                android:textColor="@android:color/white"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                />
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="right"
+                >
+            <CheckBox
+                    android:id="@+id/chkFavourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:button="@android:drawable/btn_star"/>
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+            android:id="@+id/one_record_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:capitalize="sentences"
+            android:gravity="top"
+            android:textSize="28dip"
+            android:hint="@string/enter_note_here"
+            android:minLines="2"
+            />
+</LinearLayout>
+

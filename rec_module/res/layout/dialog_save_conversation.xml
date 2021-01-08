@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:padding="10dp"
+        >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dip"
+            >
+        <ImageView
+            android:id="@+id/save_dialog_icon"
+            android:src="@drawable/icon_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            />
+        <TextView
+            android:text="@string/save_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <!--  КНОПКА СОХРАНИТЬ РАЗГОВОР -->
+    <Button
+            android:id="@+id/save_dialog_ok_button"
+            android:drawableLeft="@android:drawable/ic_menu_save"
+            android:text="@string/save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dip"
+            android:layout_marginBottom="15dip"
+            />
+
+    <Button
+            android:id="@+id/save_dialog_save_and_note_button"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:text="@string/save_and_add_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dip"
+            />
+
+    <!--  КНОПКА ОТМЕНЫ СОХРАНЕНИЯ -->
+    <Button
+            android:id="@+id/save_dialog_cancel_button"
+            android:drawableLeft="@android:drawable/ic_menu_delete"
+            android:textColor="#FFF"
+            android:text="@string/cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dip"
+            android:layout_marginBottom="15dip"
+            />
+
+    <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="480dp"
+            android:gravity="bottom"
+            android:layout_weight="0"
+            >
+        <com.google.ads.AdView
+                android:visibility="gone"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/admob_publisher_id"
+                ads:loadAdOnCreate="true" />
+    </RelativeLayout>
+
+</LinearLayout>

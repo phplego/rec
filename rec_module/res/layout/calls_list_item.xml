@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:focusable="false"
+        >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:paddingTop="5dp"
+    android:layout_height="fill_parent"
+    android:focusable="false"
+    >
+
+    <ImageButton android:id="@+id/play_button"
+                 android:contentDescription="Play Record"
+                 android:layout_gravity="top"
+                 android:layout_height="50dp"
+                 android:layout_width="50dp"
+                 android:layout_weight="0"
+                 android:src="@android:drawable/ic_media_play"
+                 android:focusable="false"
+            />
+    <ImageButton android:id="@+id/pause_button"
+                 android:contentDescription="Play Record"
+                 android:layout_gravity="top"
+                 android:layout_height="50dp"
+                 android:layout_width="50dp"
+                 android:visibility="gone"
+                 android:layout_weight="0"
+                 android:src="@android:drawable/ic_media_pause"
+                 android:focusable="false"
+            />
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="top"
+                  android:layout_weight="1.0"
+                  android:focusable="false"
+            >
+
+        <LinearLayout android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="1.0"
+                >
+            <ImageView
+                    android:id="@+id/incoming_indicator"
+                    android:src="@drawable/sym_call_outgoing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:paddingLeft="7dip"
+                    android:paddingRight="7dip"
+                    android:layout_gravity="center_vertical"
+                    />
+            <TextView android:id="@+id/text_phone"
+                      android:textSize="21dp"
+                      android:layout_gravity="center_vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_weight="1.0"
+                      android:layout_height="wrap_content"
+                      android:text="+79883879040"/>
+
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/text_top"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content"
+            android:text="25.12.2012 10:10:10"
+            android:focusable="false"
+            android:paddingBottom="2dip"
+            />
+
+
+    </LinearLayout>
+
+    <ImageButton android:id="@+id/call_button"
+        android:layout_gravity="top"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_weight="0"
+        android:src="@android:drawable/sym_action_call"
+        android:focusable="false"
+        />
+
+</LinearLayout>
+
+    <TextView android:id="@+id/text_note"
+              android:textSize="26dp"
+              android:paddingLeft="55dip"
+              android:layout_gravity="center_vertical"
+              android:layout_width="wrap_content"
+              android:layout_weight="1.0"
+              android:layout_height="wrap_content"
+              android:text="My lovely customer"
+              android:focusable="false"
+              android:textColor="#00FF00"
+            />
+    <SeekBar
+        android:id="@+id/playSeekBar"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:progress="0"
+        android:focusable="false"
+    />
+</LinearLayout>

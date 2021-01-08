@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="4px"
+        >
+    <EditText
+            android:id="@+id/editTextNote"
+            style="@android:style/Widget.EditText"
+            android:minLines="4"
+            android:capitalize="sentences"
+            android:gravity="top"
+            android:textSize="20dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+            >
+
+        <Button
+                android:id="@+id/btnNoteMenu"
+                android:text="@string/MENU"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btn_default_transparent"
+                />
+        <Button
+                android:id="@+id/btnInsertNote"
+                android:text="↓ OK"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btn_default_transparent"
+                />
+    </LinearLayout>
+</LinearLayout>

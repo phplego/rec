@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Virtual Secretary Pro</string>
+    <string name="app_title">Virtual Secretary Pro</string>
+
+    <string name="package_pro">ru.readyscript.secretarypro</string>
+
+	<string name="admob_publisher_id">ca-app-pub-3146831234603754/5573259625</string> 
+</resources>

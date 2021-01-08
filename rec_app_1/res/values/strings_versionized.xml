@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Recording</string>
+    <string name="app_title">Call Recording</string>
+
+    <string name="package_pro">ru.phplego.recpro</string>
+
+    <string name="admob_publisher_id">a150b239a1eeee9</string>
+</resources>

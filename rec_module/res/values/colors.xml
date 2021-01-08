@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_tabs_bg">#FF33B5E5</color>
+    <color name="my_tabs_bg_trans">#0033B5E5</color>
+
+    <!--
+    <color name="my_tabs_bg">#FF0099DB</color>
+    <color name="my_tabs_bg_trans">#000099DB</color>
+
+    <color name="my_tabs_bg">#FF7B9726</color>
+    <color name="my_tabs_bg_trans">#007B9726</color>
+    -->
+
+    <color name="expressive">#0099DB</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Эти строки должны быть перезаписаны строками из конкретной версии приложения
+    -->
+    <string name="app_name">XXXXXXX</string>
+    <string name="app_title">XXXXXXX</string>
+    <string name="package_pro">xxxxxxxxxxxxxxxxx</string>
+	<string name="admob_publisher_id">xxxxxxxxxxxxxxxxx</string>
+</resources>

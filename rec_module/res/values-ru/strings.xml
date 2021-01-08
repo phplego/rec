@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="options_title">Параметры Программы</string>
+    <string name="delete">Удалить</string>
+    <string name="expand_all">Раскрыть все</string>
+    <string name="collapse_all">Схлопнуть все</string>
+    <string name="group_operations">Операции над группой</string>
+    <string name="add_to_plan">Добавить в план</string>
+    <string name="remove_from_plan">Убрать из плана</string>
+    <string name="plan_to">В План</string>
+    <string name="edit">Редактировать</string>
+    <string name="edit_file">Редактировать файл</string>
+    <string name="abonent_history">История абонента</string>
+    <string name="send">Отправить</string>
+    <string name="clear">Очистить</string>
+    <string name="add_to_fav">Добавить в избранное</string>
+    <string name="remove_from_fav">Убрать из избранного</string>
+    <string name="send_record">Отправить запись</string>
+    <string name="save_number">Сохранить в контакты</string>
+    <string name="cancel">Отмена</string>
+    <string name="exit">Выход</string>
+    <string name="MENU">МЕНЮ</string>
+    <string name="open_folder">Открыть Папку</string>
+    <string name="enter_note_here">Введите текст пометки</string>
+    <string name="incoming">Входящий</string>
+    <string name="outgoing">Исходящий</string>
+    <string name="empty_list">Список пуст</string>
+    <string name="do_call">Позвонить</string>
+    <string name="loading">Процесс идет...</string>
+    <string name="cannot_create_dir">Не удалось создать папку</string>
+    <string name="pages">Модули</string>
+
+
+    <string name="notepad">Блокнот</string>
+    <string name="search">Поиск</string>
+    <string name="calls">Звонки</string>
+    <string name="noted_calls">Пометки</string>
+    <string name="plan">План</string>
+    <string name="favourites">Избранное</string>
+    <string name="dialogs">Диалоги</string>
+    <string name="options">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="help">Помощь</string>
+    <string name="tools">Инструменты</string>
+    <string name="show_all">Показать все разговоры</string>
+    <string name="everything">Все подряд</string>
+    <string name="clipboard_history">История буфера</string>
+
+
+    <string name="enable">Включить</string>
+    <string name="enable_summary">Полное включение/выключение программы</string>
+
+    <string name="save">Сохранить</string>
+    <string name="save_question">Сохранить запись разговора?</string>
+
+    <string name="start_service_question">Сервис записи разговоров не запущен. Запустить?</string>
+
+    <string name="pref_first_category_title" >Параметры фонового режима</string>
+    <string name="pref_tray_icon" >Показывать иконку</string>
+    <string name="pref_tray_icon_summary">Отображать иконку программы в трее (вверху экрана)</string>
+    <string name="pref_app_icon" >Изменить иконку</string>
+    <string name="pref_app_icon_summary" >Нажмите, чтобы выбрать иконку из списка</string>
+    <string name="pref_call_recording">Диалог сохранения</string>
+    <string name="pref_call_recording_title">Диалог сохранения</string>
+    <string name="pref_call_recording_summary">По окончании звонка нужно ли задавать вопрос о сохранении разговора?</string>
+    <string name="pref_second_category_title">Файлы разговоров</string>
+    <string name="pref_path">Путь к папке с записями</string>
+    <string name="pref_path_summary">Коснитесь, чтобы изменить путь к папке, в которую будут сохранятся аудиофайлы</string>
+
+    <string name="pref_rec_params_category_title">Настройки записи</string>
+
+    <string name="pref_audio_source">Источник звука</string>
+    <string name="pref_audio_source_summary">Тип записывающего устройства</string>
+
+    <string name="pref_call_recording_format">Формат аудиофайлов</string>
+    <string name="pref_call_recording_format_summary">В случае проблем с записью в формате MPEG-4 выберите 3GP или WAV формат</string>
+
+    <string name="pref_audio_bitrate">Битрейт аудиозаписей</string>
+    <string name="pref_audio_bitrate_summary_on">Битрейт означает качество аудиозаписей. Понизив битрейт можно значительно сократить объем занимаемого места на диске</string>
+
+    <string name="pref_corrupt_extension">Скрыть файлы от проигрывателя</string>
+    <string name="pref_corrupt_extension_summary">Файлы записей невидимы для медиапроигрывателя</string>
+    <string name="pref_corrupt_extension_summary_off">Изменять расширение файлов, чтобы медиа-проигрыватель их не обнаруживал</string>
+
+
+    <string name="pref_error_reporting_category_title">Отчеты об ошибках</string>
+    <string name="pref_enable_acra">Отправлять отчеты</string>
+    <string name="pref_acra_enabled">Отправка отчетов об ошибках включена</string>
+    <string name="pref_acra_disabled">Отправка отчетов об ошибках отключена</string>
+
+    <string name="pref_acra_user_email_summary">Введите Ваш E-Mail, если вы хотите получить ответ от разработчиков</string>
+
+    <string name="audio_source_not_supported">Ваше устройство не поддерживает данный источник записи</string>
+
+    <string name="sec">сек</string>
+    <string name="duration_limit_reached">В бесплатной версии программы продолжительность записи ограничена 1 минутой</string>
+
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="tomorrow">Завтра</string>
+
+
+    <string name="service_working">Запись Разговоров работает</string>
+
+    <string name="note_title">Текстовая заметка к этому звонку:</string>
+
+    <string name="nocalls">Вы еще пока не сделали ни одного звонка</string>
+    <string name="noplan">Вы еще пока ничего не запланировали</string>
+
+    <string name="set_alert_date_title">Запланировать на:</string>
+    <string name="set_alert_date_button_text">Установить дату</string>
+    <string name="set_alert_time_button_text">Установить время</string>
+
+    <string name="conversation_finished">Разговор окончен</string>
+    <string name="save_and_add_note">Сохранить и добавить заметку</string>
+
+    <string name="trial_expired">Испытательный срок истек</string>
+    <string name="buy">Купить</string>
+    <string name="upgrade_to_pro_version">Обновиться до Pro версии</string>
+
+    <!-- ДИАЛОГ ВЫБОРА ФАЙЛА -->
+    <string name="location">Путь</string>
+    <string name="cant_read_folder">нельзя открыть директорию!</string>
+    <string name="nnew">Новый</string>
+    <string name="select">Выбрать</string>
+    <string name="file_name">Имя файла:</string>
+    <string name="create">Сохранить</string>
+    <string name="no_data">Нет данных</string>
+    <string name="err">Ошибка</string>
+
+    <!-- Экспорт/Импорт -->
+    <string name="import_">Импорт</string>
+    <string name="export">Экспорт</string>
+    <string name="import_from_file">Импорт из файла</string>
+    <string name="to_file">В файл</string>
+    <string name="database_export">Экспортировать базу звонков в файл</string>
+    <string name="database_export_ok">База успешно экспортирована в файл</string>
+    <string name="database_export_err">Не удалось экспортировать в файл</string>
+    <string name="database_import">Импортировать базу звонков из файла</string>
+    <string name="database_import_ok">База успешно импортирована</string>
+    <string name="database_import_err">Не удалось импортировать базу</string>
+    <string name="from_which_secretary">Из какой версии программы?</string>
+    <string name="really_want_import_from_secretary_beta">Вы действительно хотите импортировать базу данных из Beta версии программы? Все текущие записи будут потеряны.</string>
+    <string name="really_want_import_from_secretary_free">Вы действительно хотите импортировать базу данных из бесплатной версии программы? Все текущие записи будут потеряны.</string>
+    <string name="really_want_import_from_secretary_pro">Вы действительно хотите импортировать базу данных из Pro версии программы? Все текущие записи будут потеряны.</string>
+    <string name="do_you_want_to_import_from_other">Импортировать базу данных из предшествующей версии программы?</string>
+    <string name="import_from_secretary">Импорт из другой версии</string>
+    <string name="technical_info">Техническая информация</string>
+    <string name="send_report">Отправить отчет ошибке</string>
+    <string name="send_report_sended">Отчет ошибке отправлен</string>
+
+    <string name="send_email_to_developer">Напишите нам</string>
+    <string name="nice_to_contact_you">Мы рады любому сотрудничеству</string>
+    <string name="hello_oleg">Привет, Олег...</string>
+
+    <string name="start_page">Стартовая страница</string>
+
+    <string name="move_up">Передвинуть вверх</string>
+    <string name="move_down">Передвинуть вниз</string>
+
+    <string name="private_number">Скрытый номер</string>
+
+    <string name="current_value_clipboard">Текущее значение в буфере обмена:</string>
+
+    <string name="delete_all_confirm">Вы действительно хотие удалить все записи?</string>
+
+    <string name="clipboard_history_hint">Здесь отображается история всех копирований в системе. При включеном модуле возможен больший расход батареи</string>
+
+</resources>

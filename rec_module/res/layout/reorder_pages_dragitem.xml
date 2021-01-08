@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+    <CheckBox android:id="@+id/checkboxEnabled1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/movecross"
+           android:layout_gravity="center_vertical"
+           android:text=" Блокнот"
+           android:textSize="18dp"
+            ></CheckBox>
+
+    <TextView
+
+          android:id="@+id/TextView01"
+          android:layout_width="fill_parent"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+
+          android:paddingLeft="10dip"
+            ></TextView>
+
+    <ImageView android:id="@+id/ImageView01"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/movecross"
+               android:layout_gravity="bottom"
+            ></ImageView>
+</LinearLayout>

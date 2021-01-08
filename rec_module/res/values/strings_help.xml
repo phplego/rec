@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="help_content"><![CDATA[
+
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CallRecording</title>
+
+<style>
+body{
+text-align: justify;
+font-family: Tahoma;
+}
+</style>
+</head>
+
+<body>
+<h2>Call Recording</h2>
+<ol>
+<li><a href="#about">About the program</a></li>
+<li><a href="#first">First calls</a></li>
+<li><a href="#interface">Program interface</a></li>
+<li><a href="#call_mark">How to add a note during
+conversation</a></li>
+<li><a href="#audio_source">Can\'t hear the person
+speaking in the recording. What to do?</a></li>
+<li><a href="#hidden">Invisible mode</a></li>
+</ol>
+<a name="about"></a>
+<h3>Program Info</h3>
+This is a program for recording conversation and adding
+notes to the recorded conversations. <br>
+After you end the call, the program will ask if you would like to save
+the recording of the conversation onto the memory card. The program
+helps you to keep records of important conversations and to find them
+in the history of conversations, thanks to the text and visual notes.
+Having Call Recording makes working with a large number of clients a
+breeze.<br>
+<a name="first"></a>
+<h3>First calls</h3>
+Immediately after installation of the program the list of recorded
+conversations is empty. What a surprise! :) At this moment you do not
+have any recorded conversations and in order to test the program you
+need to make a phone call to any number as you normally would. After
+that, launch Call Recording and you will see your conversation in
+the list of recorded calls. Now you can hear it by pressing the "Play"
+button.<br>
+<a name="interface"></a>
+<h3>Program interface</h3>
+The Program Interface consists of several pages.<br>
+<p><span style="font-weight: bold;">CALLS</span>
+-
+contains the history of all saved conversations, grouped by days.<br>
+</p>
+<p><span style="font-weight: bold;">NOTES</span>
+-
+contains a similar list but only shows recorded conversations that have
+a note attached to them.<br>
+</p>
+<p><span style="font-weight: bold;">DIALOGUES</span>
+-
+contains a similar list of all recorded conversations, but this list is
+grouped by client.<br>
+</p>
+<p><span style="font-weight: bold;">PLANNED</span>
+-
+contains calls that you have planned to make in the future. Here the
+sorting order is reversed, the earliest planned call will be at the top
+of the list.</p>
+<a name="call_mark"></a>
+<h3>How to write a note during conversation</h3>
+<p>Often, when we are talking with someone, it is necessary to
+record some information that he/she dictates. This could be a phone
+number, address or other important piece of information.
+</p>
+<p>In order to add a note to an ongoing conversation all you have
+to do is
+pull down the notification panel at the top of the screen, and select
+the icon for Call Recording, and you will get a screen where you can
+add a note to the conversation. Therefore, you are able to speak with a
+person and type keywords and information, which you will than see in
+the list of conversations, next to the phone number of the client.</p>
+<a name="audio_source"></a>
+<h3>I can\'t hear the other person talking in the recorded
+conversation. What to do?</h3>
+All conversations recorded by the program are responsibility of
+the&nbsp;<span style="font-weight: bold;">Audio Source</span>.
+If you go into configuration and choose <span style="font-weight: bold;">Audio Source</span> you
+will see the following 5 options:<br>
+<ol>
+<li>Default</li>
+<li>Microphone</li>
+<li>Voice Uplink</li>
+<li>Voice Downlink</li>
+<li>Voice Call (input and output streams)</li>
+</ol>
+The names of these Sources are deceptive and could cause confusion,
+because every current manufacturer of mobile phones interprets them as
+it is convenient for them. On certain models of phones microphone
+recording captures both streams, but on others both streams are
+captured when the<span style="font-weight: bold;"> Output
+Stream</span> option is selected. All that we can do is
+experiment in order to achieve the correct recording configuration. We
+hope that in the near future, manufacturers of devices will more
+strictly adhere to specifications from Android and the names of sound
+sources will correspond to how the device will actually record.
+<p>The first option, <span style="font-weight: bold;">Default</span>,
+is supported by every device, and thereby we
+set it as the default after installation. When using this option some
+devices record both streams, but some record only your voice. Try
+selecting a different Recording Source and to re-record the
+conversation. Also it is important to note that some telephone models
+do not support recording of two-way streams without Root-Permissions.</p>
+<a name="hidden"></a>
+<h3>Invisible mode</h3>
+<p>Call Recording can be configured to work in the Invisible
+mode. For this all you do is remove the checkmark of the&nbsp;<span style="font-weight: bold;">Icon in
+status panel</span> and set configuration named <span style="font-weight: bold;">Conversation recording</span>
+to&nbsp;<span style="font-weight: bold;">Record all</span>.
+</p>
+<p>This way the program will not ask you "Would you like to save
+this
+conversation?" at the end of a phone call, and the application icon at
+the top of the screen will not be visible. Now your Call Recording
+is working in the invisible mode.
+</p>
+<p></p>
+</body></html>
+
+]]>
+    </string>
+</resources>

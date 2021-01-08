@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Used in app/menu examples -->
+    <string-array name="entrievalues_list_ask">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="entries_list_ask">
+        <item>Record All</item>
+        <item>Prompt me at the end of the call</item>
+    </string-array>
+
+
+    <!--
+
+        public final class AudioSource  {
+            public static final int DEFAULT = 0;
+            public static final int MIC = 1;
+            public static final int VOICE_UPLINK = 2;
+            public static final int VOICE_DOWNLINK = 3;
+            public static final int VOICE_CALL = 4;
+            public static final int CAMCORDER = 5;
+            public static final int VOICE_RECOGNITION = 6;
+
+        }
+     -->
+
+    <string-array name="entrievalues_list_audio_source">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <!--
+        <item>5</item>
+        <item>6</item>
+        -->
+    </string-array>
+
+    <string-array name="entries_list_fromats">
+        <item>MPEG-4</item>
+        <item>3GP</item>
+        <item>WAV</item>
+    </string-array>
+
+    <string-array name="entrievalues_list_fromats">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_list_audio_source">
+        <item>Default</item>
+        <item>MIC</item>
+        <item>Voice Uplink</item>
+        <item>Voice Downlink</item>
+        <item>Voice Call (up+down)</item>
+        <!--
+        <item>Camcoder</item>
+        <item>Voice Recognition</item>
+        -->
+    </string-array>
+
+    <string-array name="entrievalues_bitrate">
+        <item>96000</item>
+        <item>64000</item>
+        <item>32000</item>
+        <item>16000</item>
+        <item>8000</item>
+    </string-array>
+
+    <string-array name="iconNames">
+        <item>Default</item>
+        <item>Girl</item>
+        <item>Habrahabr</item>
+        <item>Telephone</item>
+        <item>Notepad</item>
+        <item>Microphone</item>
+        <item>Clip</item>
+        <item>uTorrent</item>
+        <item>Jacket</item>
+    </string-array>
+    <array name="iconValues">
+        <item>@drawable/icon_margin</item>
+        <item>@drawable/icon1</item>
+        <item>@drawable/icon2</item>
+        <item>@drawable/icon3</item>
+        <item>@drawable/icon4</item>
+        <item>@drawable/icon5</item>
+        <item>@drawable/icon6</item>
+        <item>@drawable/icon9</item>
+        <item>@drawable/icon10</item>
+    </array>
+    <array name="iconDrawables">
+        <item>@drawable/icon_margin_copy</item>
+        <item>@drawable/icon1</item>
+        <item>@drawable/icon2</item>
+        <item>@drawable/icon3</item>
+        <item>@drawable/icon4</item>
+        <item>@drawable/icon5</item>
+        <item>@drawable/icon6</item>
+        <item>@drawable/icon9</item>
+        <item>@drawable/icon10</item>
+    </array>
+</resources>

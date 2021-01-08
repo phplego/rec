@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo" >
+        <item name="android:windowBackground">@drawable/background_centred</item>
+    </style>
+
+</resources>
